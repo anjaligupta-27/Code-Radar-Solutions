@@ -6,7 +6,7 @@ int main() {
     printf("");
     scanf("%f",&a);
     float area;
-    area=pi*a*a;
+    area=3.14*a*a;
     printf("%.2f",area);
     return 0;
 }
