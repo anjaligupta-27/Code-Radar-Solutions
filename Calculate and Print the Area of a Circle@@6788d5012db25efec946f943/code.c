@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define pi
 
 int main() {
     float a;
+    float pi=3.14;
     printf("");
     scanf("%f",&a);
     float area;
