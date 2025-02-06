@@ -6,7 +6,12 @@ int main() {
     if(n1>=0 && n2>=0){
         printf("True");
     }
-    
+    else if(n1==0 && n2>=0){
+        printf("True");
+    }
+    else if (n2==0 && n1>=0){
+        printf("True");
+    }
     else{
         printf("False");
     }
