@@ -1,5 +1,7 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
+#include <stdint.h>
+
 int main() {
     int32_t num, n;
     scanf("%d %d", &num, &n);
@@ -11,5 +13,5 @@ int main() {
 
     printf("%d\n", (num & (1 << n)) ? 1 : 0);
 
-    return 0;
+        return 0;
 }
